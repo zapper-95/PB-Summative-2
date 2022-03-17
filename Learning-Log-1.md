@@ -1,0 +1,11 @@
+##Entry 1:
+For this coursework, my goal was to be able to contribute to a project which was using neural networks and machine learning. It had always fascinated me how a computer program could ‘learn’ to become better at a task, so I wanted to understand this through application to a project.
+ 
+I started off first by researching what a neural network is, and how they work. I came across a set of videos on YouTube (https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi) that were very insightful, and from there learned the basic theory. In this process, I discovered how a neural network ‘learning’ in fact just refers to minimizing a cost function by tweaking the various weights and biases in the model. Minimizing a function can be done through using calculus so my knowledge from the ‘maths for computer science module’ assisted greatly. However, it was only after learning all this, that I discovered what I had learned was just the tip of the iceberg in terms of what was possible. The simple feedforward neural network, which I had learned about, is much less used in practice. For example, in computer vision, a convolutional neural network would much more likely be used. 
+
+Looking to put my research to practice, I looked for projects implementing neural networks on GitHub. I was surprised to find many of them using libraries such as TensorFlow, scikit-learn and Keras. On reflection, this made more sense as those libraries have been specifically designed with optimum efficiency in mind. I had, however, assumed that the actual programming would be at a much lower level; closer to actually multiplying matrices which fundamentally is how data propagates forward through a network. 
+
+After finding a project to work on, I went through the code, trying to understand what it was doing. This was quite intimidating as a lot of it I could not understand yet. I then went through the issues to see if there was anything I felt like I could fix, however, it still felt a little bit over my head. I am now considering changing my goal away from neural networks, to something that feels more achievable. At the moment I don't feel I could make a contribution of much value, whereas focussing on something more in my expertise I could defintley make more of a difference.
+
+
+
