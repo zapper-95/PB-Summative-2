@@ -6,6 +6,6 @@ I got to work trying to resolve this issue by first getting all the training dat
 After doing this I started getting the model to become trained on Phobos; one of Mars' moons. By looking at the folders with the images I learned that there were many more training images compared to testing. From further researching this I learned that it is standard practise to have something like a 70:30 split from training to testing images.
 
 After adding a similar ratio of pictures of Phobos to the relevant folders I started to train the model. The accuracy was 84%, which I thought was quite good. I then ran the webapp version and used it to manaully have a go testing an image of Phobos. Before this worked, however, I had to alter some code that scraped the information from wikiepdia, as scraping from Phobos wikipedia entry was slightly different to the other planets.:
-![Phobos](Learning-Log/phobos.png)
+![Phobos](https://github.com/zapper-95/Learning-Log/blob/main/phobos.png?raw=true)
 
 You can see in the image above, the confidence of the model. It only has a confidence of 0.52 for Phobos which is not very high. One of my next steps is to get the model more confident in identifying it. Additionally, I would like to introduce more sattellites so that I can submit a pull request for the issue and move onto something else.
