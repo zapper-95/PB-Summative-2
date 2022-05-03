@@ -8,8 +8,8 @@ Unfortunately, I noticed that the confidence that it was an asteroid slightly in
 To expand the range of satellites the model could identify, I choose the moons Ganymede of Jupiter and Tethys of Saturn. I found it difficult, especially for Ganymede, to get enough good images to train it on. A lot of the images were really close up, or more scientific images with annotation on. As before, I tried to divide the images so that there was a good range of close up and further away ones.    
 
 The images below show me testing out the model with two examples. For both of these it confidently managed to guess the correct label.
-![Phobos](Learning-Log/ganymede.png)
-![Phobos](Learning-Log/tethys.png)
+![Ganymede](https://github.com/zapper-95/Learning-Log/blob/main/ganymede.png)
+![Tethys](https://github.com/zapper-95/Learning-Log/blob/main/tethys.png)
 
 
 The overall accuracy of the model slightly improved, with an increase from 84% to 85.7%. This is obviously good, however, I think if I introduced many more satellites, this would drop, as it might start confusing them with one another.
