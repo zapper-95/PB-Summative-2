@@ -13,5 +13,6 @@ The images below show me testing out the model with two examples. For both of th
 
 
 The overall accuracy of the model slightly improved, with an increase from 84% to 85.7%. This is obviously good, however, I think if I introduced many more satellites, this would drop, as it might start confusing them with one another.
-![Phobos](Learning-Log/857.png)
+![857](https://user-images.githubusercontent.com/92369126/166838987-539b20da-981f-4f9a-b428-3ba543833eaa.png)
 Finally, I made a commit with these changes to Github and I am now waiting to see what changes I might need to make if the pull request is rejected. In the meantime I will begin training the model on recognising comets, which is another flagged issue. 
+
