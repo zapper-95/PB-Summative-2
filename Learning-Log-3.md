@@ -1,7 +1,7 @@
 ## Entry 3:
 From my last entry, I wanted to be able to increase the confidence on the model in identifying Phobos, as well as identifiying some more satellites. I started by finding some more photos of Phobos and adding it to the training folder. From my research of neural networks, I wanted to make sure not to include too many similar taken photos in the training folder. For example, if I included only photos of Phobos where all of it can be seen, then the model might associate that as a feature of being Phobos, and not recognise a close up picture as being it. I believe this may have led to the lower confidence score that I saw before, so I reorganised which pictures were in the training and testing folder so that there were a mixture of close and far ones. Whether due to having more training images, or a wider mixture of pictures more generally representing it, the confidence of the same image as in the last entry improved from 0.52 to 0.64.
 
-![Phobos2](Learning-Log/phobos2.png)
+![phobos2](https://user-images.githubusercontent.com/92369126/166838903-121f7c12-c454-4b79-afc3-21aef9b54dc4.png)
 
 Unfortunately, I noticed that the confidence that it was an asteroid slightly increased from last time from 0.3 to 0.33. However, I believe because the increase is a lot smaller than that of the correct label, that the changes I made were overall good for the model.
 
